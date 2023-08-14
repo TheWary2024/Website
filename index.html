@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subhash Wary</title>
+    <title>Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -69,6 +69,19 @@
         .leftSection {
             font-size: 3rem;
         }
+        .leftSection .buttons{
+            padding: 23px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
 
         .rightSection img {
             width: 80%;
@@ -77,42 +90,84 @@
         .purple {
             color: rgb(189, 140, 235)
         }
-        .text-gray{
+
+        .text-gray {
             color: gray;
         }
 
         #element {
             color: rgb(189, 140, 235)
         }
-        .secondSection{
+
+        .secondSection {
             max-width: 80vw;
             margin: auto;
             height: 80vh;
         }
 
-        .secondSection h1{
+        .secondSection h1 {
             font-size: 1.9rem;
         }
 
         .secondSection .box {
             background: white;
-            width: 80vw;
+            width: 77vw;
             height: 2px;
             margin: 56px 0;
+            display: flex;
         }
+
         .secondSection .vertical {
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 100px;
+            margin: 0 120px;
         }
 
-        .vertical-title{
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
 
         }
 
-        .vertical-desc{
-            
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(44, 18, 105);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
         }
     </style>
 </head>
@@ -140,6 +195,10 @@
 
                 <div>and I am a passionate</div>
                 <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
             </div>
             <div class="rightSection">
                 <img src="sub.jpg" alt="">
@@ -154,21 +213,82 @@
                 <div class="vertical">
                     <img class="image-top" src="developer.png" alt="">
                     <div class="vertical-title">
-                        HTML Developer (2010-2012)
+                        HTML Developer (2020-Till date)
                     </div>
                     <div> class="vertical-desc">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, assumenda necessitatibus. Quas eos molestias consequuntur dolores aperiam, explicabo totam facilis veritatis molestiae ipsum. Enim modi ex facere placeat quod maxime.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Quibusdam, assumenda necessitatibus.
                     </div>
                 </div>
                 <div class="vertical">
-                    Node.js Developer (2012-2014)
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2020-Till date)
+                    </div>
+                    <div> class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Quibusdam, assumenda necessitatibus.
+                    </div>
                 </div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
+                <div class="vertical">
+                    <img class="image-top" src="facebook.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2020-Till date)
+                    </div>
+                    <div> class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Quibusdam, assumenda necessitatibus.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="whatsapp.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2020-Till date)
+                    </div>
+                    <div> class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Quibusdam, assumenda necessitatibus.
+                    </div>
+                </div>
             </div>
 
         </section>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Subhash's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.subhashsportfolio.com | All rights reserved
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
